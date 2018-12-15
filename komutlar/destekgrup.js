@@ -8,7 +8,7 @@ exports.run = (client, message, params) => {
   .setTitle("Destek Sunucusu Komutu")
   .setDescription('')
   .setColor("RANDOM")
-  .addField("**» Destek Sunucum**", "https://discord.gg/HMVWZjC")
+  .addField("**» Destek Sunucum**", "https://discord.gg/XFxE6pG")
   .setFooter('Alpha Bot Güncel Sürüm [ BETA v0.2.5 ]')
   if (!params[0]) {
     const commandNames = Array.from(client.commands.keys());
@@ -33,5 +33,5 @@ exports.conf = {
 exports.help = {
   name: 'destekgrup',
   description: 'Botun destek sunucusunun davet linkini atar.',
-  usage: 'a!destekgrup'
+  usage: 'k!destekgrup'
 };
