@@ -27,5 +27,5 @@ exports.conf = {
 exports.help = {
   name: 'site',
   description: 'Botun sitesini gösterir.',
-  usage: 'a!site'
+  usage: 'k!site'
 };
