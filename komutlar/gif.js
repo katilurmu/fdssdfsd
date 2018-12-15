@@ -33,5 +33,5 @@ exports.conf = {
 exports.help = {
   name: 'gif',
   description: 'Tüm gif komutları gösterir.',
-  usage: 'a!gif'
+  usage: 'k!gif'
 };
