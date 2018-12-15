@@ -16,8 +16,8 @@ exports.run = (client, message) => {
 	.addField("**❯ Yapımcı**", " @Dr.Plax#3243 ", )
   .addField("**❯ Sürüm**", " BETA v0.2.5 ", )
   .addField("**❯ Yapıldığı Tarih**", " 7 Aralık 2018 ", )
-	.addField("**❯ Bot Davet**", " [Davet Et](https://discordapp.com/oauth2/authorize?client_id=519887729601806346&scope=bot&permissions=2146958847)", )
-  .addField("**❯ Destek sunucusu**", " [Sunucumuza Katıl](https://discord.gg/HMVWZjC) ", )
+	.addField("**❯ Bot Davet**", " [Davet Et](https://discordapp.com/oauth2/authorize?client_id=518850460455534613&scope=bot&permissions=8)", )
+  .addField("**❯ Destek sunucusu**", " [Sunucumuza Katıl](https://discord.gg/XFxE6pG) ", )
 	.setThumbnail("https://forum.gamer.com.tr/attachments/bilgi-png.55209/");
     return message.author.sendEmbed(pingozel)
 };
@@ -32,5 +32,5 @@ exports.conf = {
 exports.help = {
   name: 'bilgi',
   description: 'Bot ile ilgili bilgi verir.',
-  usage: 'a!bilgi'
+  usage: 'k!bilgi'
 };
